@@ -1,0 +1,115 @@
+<resources>
+
+    <dimen name="activity_layout_dp_682">682dp</dimen>
+    <dimen name="dialog_width">497dip</dimen>
+    <dimen name="alert_dialog_width">682dip</dimen>
+    <dimen name="alert_dialog_height">225dip</dimen>
+
+
+    <dimen name="center_unit_margin_right4">5dp</dimen>
+    <dimen name="center_unit_margin_right3">20dip</dimen>
+    <dimen name="center_unit_margin_right2">40dip</dimen>
+    <dimen name="center_unit_margin_right1">65dip</dimen>
+
+    <dimen name="center_number_margin_right">60dip</dimen>
+    <dimen name="center_number_unit_margin_right">80dip</dimen>
+    <dimen name="center_number_margin_right2">35dip</dimen>
+
+
+    <dimen name="split_item_top_marign">15dip</dimen>
+
+
+    <dimen name="app_item_head_height">70dp</dimen>
+    <dimen name="app_item_height">53dp</dimen>
+    <dimen name="app_item_div_height">1dp</dimen>
+
+    <dimen name="install_head_marigntop_height">60dp</dimen>
+
+
+    <dimen name="center_cycle_height">551dp</dimen>
+    <dimen name="center_cycle_width">551dp</dimen>
+
+    <dimen name="system_head_marigntop_height">30dp</dimen>
+    <dimen name="storage_waring_height">338dp</dimen>
+    <dimen name="storage_waring_width">630dp</dimen>
+    <dimen name="activity_layout_dp_420">420dp</dimen>
+    <dimen name="activity_layout_dp_110">110dp</dimen>
+    <dimen name="activity_layout_dp_244">244dp</dimen>
+    <dimen name="activity_layout_dp_20">20dp</dimen>
+    <dimen name="activity_layout_sp_30">30sp</dimen>
+    <dimen name="activity_layout_dp_85">85dp</dimen>
+    <dimen name="activity_layout_dp_170">170dp</dimen>
+    <dimen name="activity_layout_dp_94">94dp</dimen>
+    <dimen name="activity_layout_sp_27">27sp</dimen>
+    <dimen name="activity_layout_dp_47">47dp</dimen>
+    <dimen name="activity_layout_dp_400">400dp</dimen>
+    <dimen name="activity_layout_sp_24">24sp</dimen>
+    <dimen name="activity_layout_sp_20">20sp</dimen>
+    <dimen name="activity_layout_dp_53">53dp</dimen>
+    <dimen name="activity_layout_dp_50">50dp</dimen>
+    <dimen name="activity_layout_sp_34">34sp</dimen>
+    <dimen name="activity_layout_sp_26">26sp</dimen>
+    <dimen name="activity_layout_dp_5">5dp</dimen>
+    <dimen name="activity_layout_dp_10">10dp</dimen>
+    <dimen name="activity_layout_dp_0">0dp</dimen>
+    <dimen name="activity_layout_dp_550">550dp</dimen>
+    <dimen name="activity_layout_dp_500">500dp</dimen>
+    <dimen name="activity_layout_dp_600">600dp</dimen>
+    <dimen name="activity_layout_dp_66">66dp</dimen>
+    <dimen name="activity_layout_dp_40">40dp</dimen>
+    <dimen name="activity_layout_dp_25">25dp</dimen>
+    <dimen name="activity_layout_dp_350">350dp</dimen>
+    <dimen name="activity_layout_dp_150">150dp</dimen>
+    <dimen name="activity_layout_dp_340">340dp</dimen>
+    <dimen name="activity_layout_dp_127">127dp</dimen>
+    <dimen name="activity_layout_dp_139">139dp</dimen>
+    <dimen name="activity_layout_dp_30">30dp</dimen>
+    <dimen name="activity_layout_dp_551">551dp</dimen>
+    <dimen name="activity_layout_dp_365">365dp</dimen>
+    <dimen name="activity_layout_dp_305">305dp</dimen>
+    <dimen name="activity_layout_dp_250">250dp</dimen>
+    <dimen name="activity_layout_dp_65">65dp</dimen>
+    <dimen name="activity_layout_sp_60">60sp</dimen>
+    <dimen name="activity_layout_sp_40">40sp</dimen>
+    <dimen name="activity_layout_sp_32">32sp</dimen>
+    <dimen name="activity_layout_dp_133">133dp</dimen>
+    <dimen name="activity_layout_dp_187">187dp</dimen>
+    <dimen name="activity_layout_dp_107">107dp</dimen>
+    <dimen name="activity_layout_dp_280">280dp</dimen>
+    <dimen name="activity_layout_dp_26">26dp</dimen>
+    <dimen name="activity_layout_sp_25">25sp</dimen>
+    <dimen name="activity_layout_sp_33">33sp</dimen>
+    <dimen name="activity_layout_dp_560">560dp</dimen>
+    <dimen name="activity_layout_dp_195">195dp</dimen>
+    <dimen name="activity_layout_dp_111">111dp</dimen>
+    <dimen name="activity_layout_dp_532">532dp</dimen>
+    <dimen name="activity_layout_dp_70">70dp</dimen>
+    <dimen name="activity_layout_dp_6">6dp</dimen>
+    <dimen name="activity_layout_dp_1">1dp</dimen>
+    <dimen name="activity_layout_dp_35">35dp</dimen>
+    <dimen name="activity_layout_dp_2">2dp</dimen>
+    <dimen name="activity_layout_dp_630">630dp</dimen>
+    <dimen name="activity_layout_dp_338">338dp</dimen>
+    <dimen name="activity_layout_dp_460">460dp</dimen>
+    <dimen name="activity_layout_dp_155">155dp</dimen>
+    <dimen name="activity_layout_dp_220">220dp</dimen>
+    <dimen name="activity_layout_sp_19">19sp</dimen>
+    <dimen name="activity_layout_dp_3">3dp</dimen>
+    <dimen name="activity_layout_sp_16">16sp</dimen>
+    <dimen name="activity_layout_dp_100">100dp</dimen>
+    <dimen name="activity_layout_dp_147">147dp</dimen>
+    <dimen name="activity_layout_dp_205">205dp</dimen>
+    <dimen name="activity_layout_dp_81">81dp</dimen>
+    <dimen name="activity_layout_dp_15">15dp</dimen>
+    <dimen name="activity_layout_dp_200">200dp</dimen>
+    <dimen name="activity_layout_dp_54">54dp</dimen>
+    <dimen name="activity_layout_dp_8">8dp</dimen>
+    <dimen name="activity_layout_dp_18">18dp</dimen>
+    <dimen name="activity_layout_dp_55">55dp</dimen>
+    <dimen name="activity_layout_dp_13">13dp</dimen>
+    
+    
+    <dimen name="activity_layout_dp_44">44dp</dimen>
+
+
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <com.hiveview.clear.manager.widget.SnowView
+        android:visibility="gone"
+        android:id="@+id/snow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/widget28"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <include
+            android:id="@+id/top_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/activity_layout_dp_85"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/activity_layout_dp_53"
+            layout="@layout/top_bar" />
+        
+        <include
+            android:id="@+id/left_main_layout"
+            android:layout_width="@dimen/activity_layout_dp_500"
+            android:layout_height="@dimen/activity_layout_dp_600"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/top_bar"
+            android:layout_marginLeft="@dimen/activity_layout_dp_66"
+            android:layout_marginTop="@dimen/activity_layout_dp_5"
+            layout="@layout/left_main"
+            android:visibility="gone" />
+
+        
+
+        <RelativeLayout
+            android:id="@+id/main"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/layout_go_left"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/activity_layout_dp_40"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/activity_layout_dp_50"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                  >
+
+                <ImageView
+                    android:id="@+id/go_left"
+                    android:layout_width="@dimen/activity_layout_dp_30"
+                    android:layout_height="@dimen/activity_layout_dp_44"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/go_left" >
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/go_left_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/activity_layout_dp_25"
+                    android:text="@string/see_infomation"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/activity_layout_sp_20" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/one_key_operate"
+                android:layout_width="@dimen/activity_layout_dp_350"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_layout_dp_150"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/one_key_clear"
+                    android:layout_width="@dimen/activity_layout_dp_340"
+                    android:layout_height="@dimen/activity_layout_dp_139"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/main_button_unselected"
+                    android:text="@string/one_key_clear"
+                    android:textColor="@color/main_button_unselected"
+                    android:textSize="@dimen/activity_layout_sp_34" >
+                </Button>
+
+                <Button
+                    android:id="@+id/manual_clear"
+                    android:layout_width="@dimen/activity_layout_dp_340"
+                    android:layout_height="@dimen/activity_layout_dp_139"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/activity_layout_dp_30"
+                    android:background="@drawable/main_button_unselected"
+                    android:text="@string/manual_clear"
+                    android:textColor="@color/main_button_unselected"
+                    android:textSize="@dimen/activity_layout_sp_34" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_go_right"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/activity_layout_dp_40"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_layout_dp_50"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                 >
+
+                <TextView
+                    android:id="@+id/go_right_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/back"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/activity_layout_sp_20" >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/go_right"
+                    android:layout_width="@dimen/activity_layout_dp_30"
+                    android:layout_height="@dimen/activity_layout_dp_44"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/activity_layout_dp_25"
+                    android:src="@drawable/go_right" >
+                </ImageView>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/main_center"
+            android:layout_width="@dimen/activity_layout_dp_551"
+            android:layout_height="@dimen/activity_layout_dp_551"
+            
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            layout="@layout/main_center" />
+
+        <com.hiveview.clear.manager.widget.LauncherFocusView
+            android:id="@+id/focus_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+        </com.hiveview.clear.manager.widget.LauncherFocusView>
+
+        <LinearLayout
+            android:id="@+id/layout_clouds"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/activity_layout_dp_127"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/clouds"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

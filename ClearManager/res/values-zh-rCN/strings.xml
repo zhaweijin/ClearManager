@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Damai Cleaner</string>
+    <string name="cleaner_title">大麦清理管家</string>
+    <string name="version">版本:</string>
+    <string name="rom_size_title">可用/总空间:</string>
+    <string name="see_infomation">查看详情</string>
+    <string name="one_key_clear">一键清理</string>
+    <string name="manual_clear">手动清理</string>
+    <string name="clear_finished">清理完成</string>
+    <string name="scaning">已扫描缓存</string>
+    <string name="scaning_ok">已处于最佳状态</string>
+    <string name="scan_trash">已扫描垃圾</string>
+    <string name="ok">OK</string>
+    <string name="mb">MB</string>
+    <string name="back">返回</string>
+    <string name="clear">清理</string>
+    <string name="uninstall">卸载</string>
+    <string name="version_name">版本名称:</string>
+    <string name="app">应用</string>
+    <string name="data">数据</string>
+    <string name="version_code">版本号</string>
+    <string name="cache_data">缓存数据</string>
+    <string name="system_app">(系统应用)</string>
+    <string name="thrid_app">(安装应用)</string>
+    <string name="scaned">已扫描%s垃圾</string>
+    <string name="clear_finished_tips">清理完成，如需更多空间请使用手动清理</string>
+    <string name="cleared_data">完成清理%s应用的缓存数据</string>
+    <string name="test_size">112M</string>
+    <string name="yes">确&#160;&#160;定</string>
+    <string name="no">取&#160;&#160;消</string>
+    <string name="uninstall_tips">是否确认卸载%s?</string>
+    <string name="clear_tips">是否确认清除%s的数据?</string>
+    <string name="cannot_uninstall_tips">系统应用不允许卸载</string>
+    <string name="cannot_clear_tips">没有可清理的数据了</string>
+    
+    <string name="storage_waring_title">空间不足</string>
+    <string name="storage_user_experience">使用体验</string>
+    <string name="system_upgrade">系统升级</string>
+    <string name="storage_waring_message">1、您的空间不足,会影响到%s，建议您再次清理；</string>
+    <string name="storage_waring_message1">2、如果清理遇到困难，可以选择恢复出厂设置；</string>
+    <string name="storage_waring_message2">如不需要清理，按遥控器“返回”退出</string> 
+    <string name="storage_waring_recovery_tips">恢复出厂设置会清除用户安装apk和保存的数据，请谨慎使用。</string> 
+    <string name="again_clear">去清理</string>
+    <string name="recovery">恢复出厂设置</string>
+    <string name="cannot_upgrade">无法升级\n可用空间不足</string>
+    <string name="go_clear">去清理</string>
+    
+    <string name="storage_waring_message3">空间不足,会影响到使用体验，建议及时清理。</string>
+    <string name="close">关闭</string>
+</resources>

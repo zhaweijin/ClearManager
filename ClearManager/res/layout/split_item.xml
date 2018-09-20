@@ -1,0 +1,5 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/div"
+    android:layout_height="@dimen/activity_layout_dp_2" >
+</RelativeLayout>

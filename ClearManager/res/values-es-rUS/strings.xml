@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Limpiador Damai</string>
+    <string name="cleaner_title">Limpiador Damai</string>
+    <string name="version">Versión:</string>
+    <string name="rom_size_title">Disponible / Total:</string>
+    <string name="see_infomation">Detalles</string>
+    <string name="one_key_clear">Limpieza con 1 clic</string>
+    <string name="manual_clear">Limpieza manual</string>
+    <string name="clear_finished">Completado</string>
+    <string name="scaning">Caché escaneado</string>
+    <string name="scaning_ok">Condición óptima</string>
+    <string name="scan_trash">Basura escaneada</string>
+    <string name="ok">Ok</string>
+    <string name="mb">MB</string>
+    <string name="back">Regresar</string>
+    <string name="clear">Borrar</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="version_name">La versión de:</string>
+    <string name="app">Aplicaciones</string>
+    <string name="data">Datos</string>
+    <string name="version_code">La versión de la</string>
+    <string name="cache_data">Datos de caché</string>
+    <string name="system_app">(Aplicación del sistema)</string>
+    <string name="thrid_app">(Aplicación instalada)</string>
+    <string name="scaned">Archivos de basura %s  escaneado</string>
+    <string name="clear_finished_tips">Se ha completado la limpieza. Realice una limpieza manual si necesita más espacio de almacenamiento.</string>
+    <string name="cleared_data">Se han eliminado %s de los datos del caché.</string>
+    <string name="test_size">112M</string>
+    <string name="yes">confirmar</string>
+    <string name="no">cancelar</string>
+    <string name="uninstall_tips">¿Quieres desinstalar esta aplicación?</string>
+    <string name="clear_tips">¿Desea eliminar %s datos?</string>
+    <string name="cannot_uninstall_tips">Las aplicaciones del sistema no se pueden desinstalar</string>
+    <string name="cannot_clear_tips">No hay más datos que borrar</string>
+    
+    <string name="storage_waring_title">Espacio insuficiente</string>
+    <string name="storage_user_experience">Experiencia de usuario</string>
+    <string name="system_upgrade">Actualización de sistema</string>
+    <string name="storage_waring_message">1) El almacenamiento insuficiente afectará %s, le sugerimos realizar otra limpieza；</string>
+    <string name="storage_waring_message1">2)Si encuentra dificultades para realizar una limpieza, puede optar por restaurar a la configuración predeterminada de fábrica</string>
+    <string name="storage_waring_message2">Si no necesita una limpieza, oprima el botón Atrás para salir.</string> 
+    <string name="storage_waring_recovery_tips">Al restaurar los valores predeterminados de fábrica se borrarán las aplicaciones instaladas y los datos almacenados. Tenga cuidado al elegir esta opción.</string> 
+    <string name="again_clear">Limpieza</string>
+    <string name="recovery">Fábrica</string>
+    <string name="cannot_upgrade">No se puede actualizar \n No hay suficiente espacio disponible.</string>
+    <string name="go_clear">Limpieza</string>
+    
+    <string name="storage_waring_message3">Espacio insuficiente de almacenamiento afectará la experiencia del usuario. Sugerimos realizar una limpieza.</string>
+    <string name="close">Cerrar</string>
+</resources>

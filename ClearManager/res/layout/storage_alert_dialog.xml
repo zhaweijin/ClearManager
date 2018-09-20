@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/activity_layout_dp_630"
+    android:layout_height="@dimen/activity_layout_dp_338"
+    android:background="@drawable/storage_waring_bg" >
+
+    <ScrollView android:layout_width="@dimen/activity_layout_dp_460"
+        android:id="@+id/layout_title"
+        android:layout_marginLeft="@dimen/activity_layout_dp_155"
+        android:layout_marginTop="@dimen/activity_layout_dp_20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="@dimen/activity_layout_dp_220">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/storage_waring_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_layout_sp_32" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_layout_dp_2"
+            android:text="@string/storage_waring_message"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_layout_sp_19" />
+        <TextView
+            android:id="@+id/message1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_layout_dp_2"
+            android:text="@string/storage_waring_message1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_layout_sp_19" />
+        <TextView
+            android:id="@+id/message_recovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/storage_message_recovery_color"
+            android:textSize="@dimen/activity_layout_sp_19" />
+        <TextView
+            android:id="@+id/message2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_layout_dp_3"
+            android:text="@string/storage_waring_message2"
+            android:textColor="@color/storage_message_color"
+            android:textSize="@dimen/activity_layout_sp_16" />
+    </LinearLayout>
+</ScrollView>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_layout_dp_100"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_title"
+        android:layout_marginLeft="@dimen/activity_layout_dp_147"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/again_clear"
+            android:layout_width="@dimen/activity_layout_dp_205"
+            android:layout_height="@dimen/activity_layout_dp_100"
+            android:background="@drawable/button_selector"
+            android:text="@string/again_clear"
+            android:textAllCaps="false"
+            android:textColor="@color/alert_dialog_button_unselected_color"
+            android:textSize="@dimen/activity_layout_sp_24">
+        </Button>
+
+        <Button
+            android:id="@+id/recovery"
+            android:layout_width="@dimen/activity_layout_dp_205"
+            android:layout_height="@dimen/activity_layout_dp_100"
+            android:layout_marginLeft="@dimen/activity_layout_dp_0"
+            android:background="@drawable/button_selector"
+            android:text="@string/recovery"
+            android:textAllCaps="false"
+            android:layout_marginRight="@dimen/activity_layout_dp_81"
+            android:textColor="@color/alert_dialog_button_unselected_color"
+            android:textSize="@dimen/activity_layout_sp_24">
+        </Button>
+    </LinearLayout> 
+
+</RelativeLayout>

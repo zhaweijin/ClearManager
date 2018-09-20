@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_layout_dp_85" >
+
+        
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/activity_layout_dp_6"
+            android:layout_height="@dimen/activity_layout_dp_66"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_layout_dp_54"
+            android:background="@drawable/top"
+             >
+        </ImageView>
+        <TextView
+            android:id="@+id/cleaner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:text="@string/cleaner_title"
+            android:layout_marginLeft="@dimen/activity_layout_dp_8"
+            android:layout_marginTop="@dimen/activity_layout_dp_5"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_layout_sp_33"
+             >
+        </TextView>
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_below="@+id/cleaner_title"
+            android:text="@string/version"
+            android:layout_marginLeft="@dimen/activity_layout_dp_8"
+            android:layout_marginTop="@dimen/activity_layout_dp_0"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_layout_sp_20"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/rom_size_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/rom_size"
+            android:text="@string/rom_size_title"
+            android:layout_marginTop="@dimen/activity_layout_dp_18"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/activity_layout_dp_15"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_layout_sp_20" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/rom_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/activity_layout_dp_55"
+            android:layout_marginTop="@dimen/activity_layout_dp_13"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_layout_sp_27" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

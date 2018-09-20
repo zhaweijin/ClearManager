@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/one_key_clear"
+        android:layout_width="@dimen/activity_layout_dp_340"
+        android:layout_height="@dimen/activity_layout_dp_139"
+        android:text="@string/one_key_clear"
+        android:textColor="@color/main_button_unselected"
+        android:textSize="@dimen/activity_layout_sp_34" >
+    </Button>
+
+    <Button
+        android:id="@+id/manual_clear"
+        android:layout_width="@dimen/activity_layout_dp_340"
+        android:layout_height="@dimen/activity_layout_dp_139"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_layout_dp_30"
+        android:text="@string/manual_clear"
+        android:textColor="@color/main_button_unselected"
+        android:textSize="@dimen/activity_layout_sp_34" >
+    </Button>
+
+</LinearLayout>

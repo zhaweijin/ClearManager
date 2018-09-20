@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Damai Cleaner</string>
+    <string name="cleaner_title">Damai Cleaner</string>
+    <string name="version">Version:</string>
+    <string name="rom_size_title">Available/Total:</string>
+    <string name="see_infomation">Details</string>
+    <string name="one_key_clear">1-Click Cleanup</string>
+    <string name="manual_clear">Manual Cleanup</string>
+    <string name="clear_finished">Completed</string>
+    <string name="scaning">Cache scanned</string>
+    <string name="scaning_ok">Optimal condition</string>
+    <string name="scan_trash">Trash scanned</string>
+    <string name="ok">OK</string>
+    <string name="mb">MB</string>
+    <string name="back">Return</string>
+    <string name="clear">Delete</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="version_name">VersionName:</string>
+    <string name="app">Applications</string>
+    <string name="data">Data</string>
+    <string name="version_code">VersionCode</string>
+    <string name="cache_data">Cache Data</string>
+    <string name="system_app">(System Application)</string>
+    <string name="thrid_app">(Installed Application)</string>
+    <string name="scaned">Scanned %s trash files</string>
+    <string name="clear_finished_tips">Cleanup has been completed. Please perform a 
+										manual cleanup if you need more storage space.</string>
+    <string name="cleared_data">cache data of %s have been deleted.</string>
+    <string name="test_size">112M</string>
+    <string name="yes">Confirm</string>
+    <string name="no">Cancel</string>
+    <string name="uninstall_tips">Do you want to uninstall this app?</string>
+    <string name="clear_tips">Do you want to delete %s data?</string>
+    <string name="cannot_uninstall_tips">System apps cannot be uninstalled</string>
+    <string name="cannot_clear_tips">There is no more data to be deleted</string>
+    
+    <string name="storage_waring_title">Insufficient Storage</string>
+    <string name="storage_user_experience">User Experience</string>
+    <string name="system_upgrade">System Upgrade</string>
+    <string name="storage_waring_message">1) Insufficient storage will affect %s, we suggest performing another cleanup;</string>
+    <string name="storage_waring_message1">2) If you encounter difficulties performing a clean up, you can choose to reset to factory default settings</string>
+    <string name="storage_waring_message2">If a clean up is not needed, press the back button to exit. </string> 
+    <string name="storage_waring_recovery_tips">Resetting to factory default settings will delete any installed apps and saved data. Please be careful when choosing this option. </string> 
+    <string name="again_clear">Cleanup</string>
+    <string name="recovery">Factory</string>
+    <string name="cannot_upgrade">Cannot upgrade \n Insufficient space available. </string>
+    <string name="go_clear">Cleanup</string>
+    
+    <string name="storage_waring_message3">Insufficient storage will affect user experience. We suggest performing a cleanup.  </string>
+    <string name="close">Close</string>
+</resources>

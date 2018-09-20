@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/widget28"
+        android:layout_width="@dimen/activity_layout_dp_551"
+        android:layout_height="@dimen/activity_layout_dp_551" >
+
+        <ImageView
+            android:id="@+id/cycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/scan"
+              />
+
+        <RelativeLayout
+            android:id="@+id/center_cycle_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+              >
+
+            <ImageView
+                android:id="@+id/center_cycle"
+                android:layout_width="@dimen/activity_layout_dp_365"
+                android:layout_height="@dimen/activity_layout_dp_365"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/center_min_bg"
+                android:scaleType="fitXY" >
+            </ImageView>
+
+            <RelativeLayout
+                android:id="@+id/center_text"
+                android:layout_width="@dimen/activity_layout_dp_305"
+                android:layout_height="@dimen/activity_layout_dp_250"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" >
+
+                <LinearLayout
+                    android:id="@+id/layout_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal" >
+
+                    <com.hiveview.clear.manager.widget.CountView
+                        android:id="@+id/scan_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_layout_dp_65"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/activity_layout_sp_60" >
+                    </com.hiveview.clear.manager.widget.CountView>
+
+                    <TextView
+                        android:id="@+id/scan_size_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_layout_dp_65"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/activity_layout_sp_40" >
+                    </TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/scan_result_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_count"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/activity_layout_dp_30"
+                    android:gravity="center"
+                    android:text="@string/scaning"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/activity_layout_sp_32" >
+                </TextView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/allow_clear_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/activity_layout_dp_20"
+                android:text="@string/clear_finished_tips"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/activity_layout_sp_20"
+                android:visibility="gone" >
+            </TextView>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

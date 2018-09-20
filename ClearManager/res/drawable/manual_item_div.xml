@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/div"
+    android:insetLeft="@dimen/activity_layout_dp_0"
+    android:insetRight="@dimen/activity_layout_dp_30" >
+</inset>

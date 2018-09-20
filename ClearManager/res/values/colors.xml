@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="test">#FF00FF00</color>
+    <color name="blue">#ff1e7fc6</color>
+    <color name="main_button_unselected">#ff393939</color>
+    <color name="main_button_selected">#ff4090cd</color>
+    
+    <color name="manual_clear_button_unselected">#ff3d3d3d</color>
+    <color name="alert_dialog_button_unselected_color">#7FFFFFFF</color>
+    <color name="snow">#3FFFFFFF</color>
+    <color name="storage_message_color">#FFB0B0B0</color>
+    <color name="storage_message_recovery_color">#FFFFFF00</color>
+</resources>

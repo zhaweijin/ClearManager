@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <com.hiveview.clear.manager.widget.SnowView
+        android:id="@+id/snow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+    <RelativeLayout
+        android:id="@+id/widget28"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/top_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/activity_layout_dp_85"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/activity_layout_dp_53"
+            layout="@layout/top_bar" />
+
+        <ListView
+            android:id="@+id/app_list"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/activity_layout_dp_532"
+            android:layout_below="@+id/top_bar"
+            android:layout_marginLeft="@dimen/activity_layout_dp_70"
+            android:layout_marginRight="@dimen/activity_layout_dp_70"
+            android:layout_marginTop="@dimen/activity_layout_dp_35"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/manual_item_div"
+            android:dividerHeight="@dimen/activity_layout_dp_1"
+            android:focusable="false"
+            android:listSelector="@android:color/transparent"
+            android:scrollbarSize="@dimen/activity_layout_dp_6"
+            android:scrollbarThumbVertical="@drawable/scrollbar"
+            android:scrollbarTrackVertical="@drawable/lv_scroll_bg"
+            android:scrollbars="vertical" >
+        </ListView>
+
+        <com.hiveview.clear.manager.widget.LauncherFocusView
+            android:id="@+id/focus_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+        </com.hiveview.clear.manager.widget.LauncherFocusView>
+         <com.hiveview.clear.manager.widget.FlyBorderView
+            android:id="@+id/fly_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+        </com.hiveview.clear.manager.widget.FlyBorderView>
+        
+    </RelativeLayout>
+
+</FrameLayout>

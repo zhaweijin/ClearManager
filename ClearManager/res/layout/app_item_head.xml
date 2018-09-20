@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/activity_layout_dp_50" >
+ 
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cache_data"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/activity_layout_sp_34" >
+    </TextView>
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name2"
+        android:singleLine="true"
+        android:text="@string/system_app"
+        android:layout_toRightOf="@+id/name"
+        android:textSize="@dimen/activity_layout_sp_26"
+        android:layout_marginTop="@dimen/activity_layout_dp_5"
+        android:textColor="@android:color/white" >
+    </TextView>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan_result"
+        android:text="@string/scaned"
+        android:layout_marginTop="@dimen/activity_layout_dp_0"
+        android:layout_below="@+id/name"
+        android:textSize="@dimen/activity_layout_sp_20"
+        android:textColor="@android:color/white" >
+    </TextView>
+
+</RelativeLayout>
